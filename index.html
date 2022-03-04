@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherBot</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="main-box">
+            <ul>
+                <li class="city">${cidade}</li>
+                <li class="temp">${temp}</li>
+                <li class="current-weather">${weather}</li>
+                <img src="http://openweathermap.org/img/wn/${  --id--  }@2x.png">
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./script.js"></script>
+</html>
