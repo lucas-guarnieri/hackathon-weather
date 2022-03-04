@@ -12,7 +12,9 @@ function showPermissionBox(){
 }
 
 function showSearchBox(){
-
+    mainBox.innerHTML =`
+    <span>Procure a previsão do tempo por cidade:</span>
+    `
 }
 
 function showWeatherBox(response){
